@@ -4,6 +4,23 @@ body {
     margin: 0;
 }
 
+table {
+    font-family: Calibri, sans-serif; 
+    font-size: 11pt; 
+    width: 500px; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Calibri, sans-serif; 
+    font-size: 11pt; 
+}
+
 .container {
     background-color: #1F1E1F;
     display: flex;
@@ -27,23 +44,6 @@ body {
     background-color: rgb(247, 135, 37); 
 }
 
-table {
-    font-family: Calibri, sans-serif; 
-    font-size: 11pt; 
-    width: 500px; 
-    margin: 0 auto;
-    margin-bottom: 20px;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 8px 12px;
-    border: 1px solid black;
-    background-color: white;
-    font-family: Calibri, sans-serif; 
-    font-size: 11pt; 
-}
-
 #table1-container h2, #table2-container h2 {
     text-align: center;
 }
@@ -59,4 +59,3 @@ th, td {
 #table2 {
     text-align: center;
 }
-
