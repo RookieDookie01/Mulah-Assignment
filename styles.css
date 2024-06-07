@@ -60,9 +60,8 @@ th, td {
     text-align: center;
 }
 
-/* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
     table {
-        font-size: 10pt; /* Adjust font size for better readability on smaller screens */
+        font-size: 10pt; 
     }
 }
