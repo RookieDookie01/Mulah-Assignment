@@ -11,6 +11,8 @@ table {
     margin: 0 auto;
     margin-bottom: 20px;
     border-collapse: collapse;
+    width: 100%; 
+    overflow-x: auto; 
 }
 
 th, td {
@@ -62,8 +64,6 @@ th, td {
 
 @media only screen and (max-width: 600px) {
     table {
-        font-size: 10pt; 
-        width: 100%;
-        overflow-x: auto;
+        font-size: 11pt; 
     }
 }
