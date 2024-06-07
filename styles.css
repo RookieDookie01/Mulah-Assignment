@@ -63,5 +63,7 @@ th, td {
 @media only screen and (max-width: 600px) {
     table {
         font-size: 10pt; 
+        width: 100%;
+        overflow-x: auto;
     }
 }
