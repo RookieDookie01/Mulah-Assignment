@@ -7,7 +7,7 @@ body {
 table {
     font-family: Calibri, sans-serif; 
     font-size: 11pt; 
-    width: 500px; 
+    width: 50%; 
     margin: 0 auto;
     margin-bottom: 20px;
     border-collapse: collapse;
@@ -58,4 +58,11 @@ th, td {
 
 #table2 {
     text-align: center;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    table {
+        font-size: 10pt; /* Adjust font size for better readability on smaller screens */
+    }
 }
